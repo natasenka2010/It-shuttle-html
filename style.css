@@ -1,0 +1,125 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-size: 16px;
+}
+* { 
+    box-sizing: border-box;
+}
+header {
+    width: 100%;
+    height: 200px;
+    padding: 20px 20px;
+    margin-bottom: -30px;
+    vertical-align: middle;
+}
+.top-section {
+    background: #f1f1f1;
+}
+.mai-section{
+    background: #f1f1f1;
+}
+.logotype {
+    display: inline-block;
+    width: 40%;
+    vertical-align: middle;
+}
+.main-nav {
+    display: inline-block;
+    width: 88;
+    text-align: right;
+    vertical-align: middle;
+    margin-right: 0%;
+}
+.main-nav-list {
+    display: inline-block;
+    padding: 0;
+    list-style: none;
+}
+.main-nav-iten {
+    display: inline-block;
+    margin-left: 42px;
+}
+.main-nav-iten a {
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+.main-nav-iten.activ a {
+color: blue;
+}
+.stroka1 div {
+    display: inline-block;
+}
+.mai-section {
+    display: inline-block;
+    background: #f1f1f1;
+    height: 365px;}
+
+    .btn {
+    float: center;
+    line-height: 65px;
+    font-size:20px;
+    background: rgb(8, 70, 133);
+    color: white;
+    margin-top: 6px;
+    width: 222px;
+    margin-right: 5px;
+    text-align: center;
+    text-transform: uppercase
+}
+.header-text {
+    float: right;
+    width: 700px;
+    height: 365px;
+    background: #f1f1f1;
+    margin-left: auto;
+    margin: right ;
+    text-align: left;
+    margin-bottom: 0px;
+    vertical-align: middle;
+}
+.header-text h2 {
+    font-size: 45px;
+    color: black;
+}
+.header-content {
+background: #f1f1f1;
+    vertical-align: middle
+    width: 700px;
+    height: 365px;
+}
+.header-content img {
+   
+    width: 328px;
+    height: 225px;
+    margin-left: 160px;
+    margin-right: 0 auto;
+   padding-top: 35px;
+}
+.header-text p {
+    font-size: 15pt;
+    color: black;
+    width: 540px;
+    height: 67px;
+    text-align: justify;
+    }
+.new-sections {
+    background: red;
+}
+.lower-text {
+background:rgb(8, 70, 133);
+height: 400px;
+padding: 30px;
+margin: 25px;
+}
+.main-style {
+    display: inline-block;
+    padding: 0;
+    list-style: none;
+.main-style li {
+    list-style-image: list.jpg;
+}
