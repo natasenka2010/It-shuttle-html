@@ -1,0 +1,291 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+;
+body {
+    font-size: 16px;
+    background-color: #f1f1f1;
+}
+* { 
+    box-sizing: border-box;
+}
+header {
+    display: inline-block;
+    width: 100%;
+    height: 200px;
+    padding: 20px 20px;
+    background-color: #f1f1f1;
+}
+
+.logotype {
+    width: 30%;
+    height: 30%;
+    vertical-align: middle;
+    padding-left: 302px;
+
+}
+.main-nav {
+       display: inline-block;
+    width: 100%;
+    margin-bottom: 20px;
+ }
+.main-nav-list {
+    display: inline-block;
+    list-style: none;
+    position: absolute;
+    right: 100px;
+}
+.main-nav-iten {
+    display: inline-block;
+    margin-left: 42px;
+    margin-bottom: 20px;
+    font: 1rem Roboto, seans-serif;
+}
+.main-nav-iten a {
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+.main-nav-iten.activ a {
+color: blue;
+}
+.mai-section {
+    display: inline-block;
+    height: 365px;
+    width: 100%;
+    background-color: #f1f1f1;
+}
+.header-content {
+    position: absolute;
+    background: #f1f1f1;
+    vertical-align: middle;
+    width: 300px;
+    height: 265px;
+}
+ .btn {
+     line-height: 65px;
+    font-size:20px;
+    background: rgb(8, 70, 133);
+    color: white;
+    margin-top: 6px;
+    width: 222px;
+    margin-right: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font:  Roboto, seans-serif;
+}
+.header-text {
+    float: right;
+    width: 700px;
+    height: 365px;
+    background: #f1f1f1;
+    margin-left: auto;
+    margin: right ;
+    text-align: left;
+    margin-bottom: 0px;
+    vertical-align: middle;
+    font: 1rem Roboto, seans-serif;
+}
+.header-text h2 {
+    font-size: 45px;
+    color: black;
+}
+
+.header-content img {
+   
+    width: 328px;
+    height: 225px;
+    margin-left: 160px;
+    margin-right: 0;
+    padding-top: 35px;}
+
+.header-text p {
+    color: black;
+    width: 540px;
+    height: 67px;
+    text-align: justify;
+
+    }
+.new-sections {
+    background: white;
+    height: 300px;
+}
+.lower-text {
+height: 30px;
+width: 540px;
+padding: 30px;
+margin: auto;
+text-align: center;
+font: 1rem Roboto, seans-serif;
+}
+
+.main-nav2 {
+    display: inline-block;
+    background-color: #34547A;
+    height: 250px;
+    width: 100%;
+}
+.main-nav2-list {
+    display: inline-block;
+    padding: 0;
+        margin-left: 200px;
+    margin-top: 100px;
+    font: 1rem Roboto, seans-serif;
+  
+}
+.main-nav2-list::before {
+    content: "";
+    list-style-image: url(C:/Users/98AF~1/AppData/Local/Temp/Rar$DIa0.360/Tilda_Icons_43_logistics_plane.svg);
+}
+.main-nav2-iten {
+    display: inline-block;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    color: white;  
+}
+.section5 {
+    display: inline-block;
+    width: 100%;
+    height: 500px;
+    background-color: white;
+}
+.section-left {
+    float: left;
+width: 50%;
+margin-top: 150px;
+ margin-left: 250px;
+ font: 1rem Roboto, seans-serif;
+}
+
+.section5-left1 {
+     width: 245px;
+    height: 30px;
+    border-bottom-style: ridge;
+    border-bottom-width: 2px;
+    border-bottom-color: #34547a;
+}
+
+.section-img {
+    width: 30%;
+     position: absolute;
+      right: 300px;
+      top: 1250px;
+}
+
+ .section6 {
+     
+     width: 100%;
+     height: 800px;
+     background-color: #f1f1f1;
+
+ }  
+ .section6-text {
+     width: 540px;
+     height: 67px;
+     margin-left:  auto;
+     margin-right: auto;
+     text-align: center;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    font: 1rem Roboto, seans-serif;
+ }  
+ .section6-video {
+   margin-top: 60px;
+  margin-left:  auto;
+  margin-right: auto;
+  padding-bottom: 50px;
+  padding-right: 430px;
+
+}
+.section7 {
+    background-color: #f9f9f9;
+    padding: 0px;
+    height: 900px;
+    width: 100%;
+  }
+
+ .section7-visual img  {
+    margin-top: 25px;
+    margin-bottom: 0px;
+     }
+  .section8-visual img  {
+    margin-top: -5px;
+ }
+ .section9-visual {
+     width: 1000px;
+     height: 100px;
+     margin-left: auto;
+     margin-right: auto;
+ }
+ .section9-visual img  {
+  margin-left: 70px; 
+}
+.section10 {
+    width: 100%;
+    height: 200px;
+    background-color: #f1f1f1;
+ 
+}
+.section10-text {
+    margin-top: 50px;
+    width: 540px;
+     height: 67px;
+     margin-left:  auto;
+     margin-right: auto;
+     text-align: center;
+     font: 1rem Roboto, seans-serif;
+}
+
+.form-section {
+    width: 100%;
+    height: 400px;
+    background-color: #f1f1f1;
+
+}
+.form {
+    
+    padding: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+    width: 400px;
+    height: 400px;
+    margin-left: 400px;
+    margin-top: 10px;
+    background-color: #f1f1f1;
+    }
+
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    flex: auto 1;
+    margin-bottom: 1rem;
+}
+.form-group .form-control {
+    margin-bottom: 0;
+    margin-right: 1rem;
+}
+.form-group .form-control:last-child {
+    margin-right: 0;
+}
+.form-control {
+    position: relative;
+    margin-bottom: 1rem;
+}
+.form-label {
+    font-family: 1rem;
+    font-weight: 400;
+    display: block;
+    margin-bottom: 5px;
+    font: 1rem Roboto, seans-serif;
+    }
+    .form-textarea {
+        border: 1px solid #e1e1e1;
+        border-radius: 4px;
+        width: 100%;
+        min-width: 140px;
+        padding: 6px 6px;
+        outline: none;
+        resize: none;
+        font: 1rem Roboto, seans-serif;
+       }
